@@ -37,7 +37,7 @@ User can create a new project and store the notes related to it. User can update
 - **useAuth** - This provides the functions related to Login and Logout and help in better state management.
 
 
-## Setup (deveopment)
+## Setup
 
 - Clone the repo, and cd into it
 - Install all the dependcies from package.json
