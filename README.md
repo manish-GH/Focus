@@ -25,7 +25,7 @@ Focus is a productivity app developed using ReactJs and Firebase
 
 ### Add tasks
 
-User can add a task and schedule it. The task gets categorized based on the schedule and importance. User can later update the task as complete or delete the task.
+User can add a task and schedule it. The task gets categorized based on the schedule and importance(Appears in the Inbox). User can later update the task as complete or delete the task.
 
 ### Add notes
 
@@ -33,7 +33,6 @@ User can create a new project and store the notes related to it. User can update
 
 
 ### Context API
-
 
 - **useAuth** - This provides the functions related to Login and Logout and help in better state management.
 
