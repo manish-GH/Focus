@@ -2,7 +2,7 @@
 
 Focus is a productivity app developed using ReactJs and Firebase
 
-**Click [Here](https://distracted-johnson-10e2a4.netlify.app/) to give it a try or watch the [Demo](https://youtu.be/UOmQNyJLYKw)**
+**Click [Here](https://focus-productivity-app.netlify.app/) to give it a try or watch the [Demo](https://youtu.be/UOmQNyJLYKw)**
 
 
 
