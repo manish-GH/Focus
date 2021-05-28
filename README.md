@@ -17,7 +17,7 @@ Focus is a productivity app developed using ReactJs and Firebase
 - **Firebase** - Baas (Backend as a Service)
   - **Firestore** 
   - **Authentication**
-    - SignIn & SignUp functionality using Email and Password verification    
+    - LogIn & SignUp functionality using Email and Password verification    
   - **Storage** 
  
 
