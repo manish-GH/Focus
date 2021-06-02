@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Form, Button, Card, Alert } from "react-bootstrap";
-// import { useAuth } from "../contexts/AuthProvider";
 import { Link, useHistory } from "react-router-dom";
 import firebaseApp from "../firebase";
 
@@ -21,7 +20,6 @@ export default function SignUp() {
       const createNewUser = await firebaseApp
         .auth()
         .createUserWithEmailAndPassword(email, password);
-      console.log("1: ", createNewUser.user);
 
       await firebaseApp.firestore().collection("users").add({
         userId: createNewUser.user.uid,
@@ -34,10 +32,8 @@ export default function SignUp() {
     }
 
     setLoading(false);
-    if (error.length > 0) {
-      // window.location.reload();
-    }
   }
+  
   return (
     <div className="container">
       <Card>
